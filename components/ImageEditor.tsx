@@ -578,7 +578,7 @@ export const ImageEditor: React.FC<ImageEditorProps> = ({
                         </button>
                         <a
                             href={resultImage}
-                            download={`nbox-ai-edited-${Date.now()}.png`}
+                            download={`MRT-ai-edited-${Date.now()}.png`}
                             className="bg-slate-800/80 backdrop-blur-sm border border-slate-600 hover:bg-indigo-600 text-white font-bold text-xs px-3 py-2 rounded-md transition-colors flex items-center gap-1.5"
                             aria-label="Tải ảnh"
                             title="Tải ảnh"

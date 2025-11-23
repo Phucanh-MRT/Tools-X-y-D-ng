@@ -333,7 +333,7 @@ const SyncCharacterRunner: React.FC<{
                                         <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <a
                                                 href={selectedResult}
-                                                download={`nbox-sync-${Date.now()}.png`}
+                                                download={`MRT-sync-${Date.now()}.png`}
                                                 className="bg-slate-800/90 hover:bg-indigo-600 text-white p-2 rounded-lg backdrop-blur-sm transition-colors"
                                                 title="Tải ảnh"
                                             >
@@ -645,7 +645,7 @@ const UtilityRunner: React.FC<{
                                         </button>
                                         <a
                                             href={resultImage}
-                                            download={`nbox-ai-utility-${task.id}-${Date.now()}.png`}
+                                            download={`MRT-ai-utility-${task.id}-${Date.now()}.png`}
                                             className="bg-slate-800/80 backdrop-blur-sm border border-slate-600 hover:bg-indigo-600 text-white font-bold text-xs px-3 py-2 rounded-md transition-colors flex items-center gap-1.5"
                                             aria-label="Tải ảnh"
                                             title="Tải ảnh"

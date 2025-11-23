@@ -257,7 +257,7 @@ const ResultDisplay: React.FC<{
                 )}
                 <a
                   href={selectedImage}
-                  download={`nbox-ai-render-${Date.now()}-${selectedImageIndex}.png`}
+                  download={`MRT-ai-render-${Date.now()}-${selectedImageIndex}.png`}
                   className="bg-slate-800/80 backdrop-blur-sm border border-slate-600 hover:bg-indigo-600 text-white font-bold text-xs px-3 py-2 rounded-md transition-colors flex items-center gap-1.5"
                   aria-label="Tải ảnh"
                   title="Tải ảnh"
@@ -438,7 +438,7 @@ const UpscaleModal: React.FC<{ imageUrl: string; onClose: () => void; }> = ({ im
         <div className="p-4 border-t border-slate-700 flex justify-center">
           <a
             href={imageUrl}
-            download={`nbox-ai-upscaled-${Date.now()}.png`}
+            download={`MRT-ai-upscaled-${Date.now()}.png`}
             className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded transition-colors flex items-center justify-center gap-2"
           >
             <Icon name="download" className="w-5 h-5" />
